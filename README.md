@@ -1,60 +1,56 @@
-# 🧩 Vue Login Lab
+# ICS2609 Homepage
 
-A simple **Vue 3 + Vite** project demonstrating login authentication using the [DummyJSON API](https://dummyjson.com/docs/auth), with routing and Bootstrap UI components.
-
----
-
-## 🚀 Features
-
-- 🔐 **User Login** via DummyJSON API  
-- 🧭 **Vue Router** navigation (Home, Login, Dashboard)
-- 🧱 **Bootstrap 5** layout and styling  
-- 💾 Stores JWT token securely in `localStorage`  
-- 🔄 Redirects after successful login  
-- 🧩 Clean, modular Vue file structure  
+A simple homepage project built with **Vite + Vue 3**, created for ICS2609 course activities.  
+It includes a homepage with navigation and a functional login form.
 
 ---
 
-## 📁 Project Structure
+## 🚀 Project Overview
+The project demonstrates a basic single-page web application structure using **Vue Router**.
 
-vue-login-lab/
-│
-├─ src/
-│ ├─ assets/ # images, icons, etc.
-│ ├─ components/ # reusable components
-│ ├─ pages/ # page views (Home, Login, Dashboard)
-│ ├─ router/
-│ │ └─ index.js # Vue Router setup
-│ ├─ App.vue # main layout with <RouterLink> nav
-│ └─ main.js # app entry point (registers router & bootstrap)
-│
-├─ index.html
-├─ package.json
-└─ vite.config.js
+### Features
+- 🏠 Homepage with a clean, blue monotone layout  
+- 🔐 Login page with username and password input  
+- 🧭 Navigation bar to switch between Home and Login  
+- ⚙️ Built using Vite for fast local development  
 
 ---
 
-## ⚙️ Installation and setup
+## 🧩 Folder Structure
 
-Make sure you have **Node.js (v18 or higher)** installed.
+ICS2609_HomePage/
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── public/
+│ └── favicon.ico
+└── src/
+├── main.js
+├── App.vue
+├── router/
+│ └── index.js
+└── components/
+├── HomeHero.vue
+└── LoginPage.vue
 
-*Install dependencies: npm intall or npm i
-*Start the development server: npm run dev
-*click the localhost link " ➜  Local:   http://localhost:****/"
+
+---
+
+## ⚙️ Installation and Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Charcoal25/ICS2609_HomePage.git
+cd ICS2609_HomePage
+
+Install Dependencies
+npm install
+
+Run the Project
+npm run dev
+
+Then open the URL shown in the terminal (usually http://localhost:5173/).
 
 
-## How to use the website
-
-*in the corner right, click log in
-
-*fill out the log in form:
-username: kminchelle
-password: 0lelplR
-
-*alternative account (if the kminchelle is not working ):
-username: emilys
-password: emillyspass
-
-*click the log in button
-*hit the refresh button
-*you'll see the "You are logged in."
